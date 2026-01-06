@@ -1,96 +1,116 @@
-# Flutter
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
+# Flutter build artifacts
 /build/
-/ios/Flutter/Flutter.framework/
-/ios/Flutter/Flutter.podspec
-/ios/Flutter/flutter_export_environment.sh
-/ios/Pods/
-/ios/Podfile.lock
-/android/.gradle/
-/android/app/debug/
-/android/app/profile/
-/android/app/release/
-/android/local.properties
-/android/gradle.properties
-pubspec.lock
+/dist/
+*.apk
+*.aab
+*.app
+*.ipa
+*.dmg
+*.zip
+/flutter_export_environment.sh
 
-# Node.js
+# Flutter dependencies
+.packages
+pubspec.lock
+pubspec.yaml.lock
+
+# Node.js dependencies
 node_modules/
+npm-debug.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
-yarn.lock
-lerna-debug.log*
-pnpm-debug.log*
+.npm
+.eslintcache
 
-# Environment Files
+# Environment files
 .env
 .env.local
 .env.*.local
-.env.production.local
 .env.development.local
 .env.test.local
+.env.production.local
 
-# IDE Configurations
+# IDE Configuration Files
+# VS Code
 .vscode/
+*.code-workspace
+.history/
+
+# Android Studio
 .idea/
+*.iml
+*.iws
+*.ipr
+.gradle/
+local.properties
+gradlew.bat
+gradlew
+
+# Xcode
+.xcworkspace/
+.xcodeproj/
+*.xcworkspace
+*.xcodeproj
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pyc
+*.pyo
+*.egg-info/
+DerivedData/
+
+# IntelliJ
 *.swp
 *.swo
 *~
 .DS_Store
-*.iml
-.gradle
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+
+# Sublime Text
 *.sublime-project
+*.sublime-workspace
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
 
 # Editor directories and files
-.history/
-.vscode-doxdocgen/
-.ionide/
+.cache
+.parcel-cache
+.next
+out
+dist
+dist-ssr
 
-# JetBrains IDEs
-*.iws
-*.ipr
-.idea/caches/
-.idea/libraries/
-.idea/modules.xml
-.idea/projectSettingsUpdater.xml
-.idea/tasks.xml
-.idea/vcs.xml
-.idea/workspace.xml
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Xcode
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.xcworkspace/
-xcuserdata/
-*.xccheckout
-*.moved-aside
-DerivedData/
-*.hmap
-*.ipa
+# System files
+*.log
+*.logg
+.env*.local
+
+# Testing
+coverage/
+.nyc_output/
+jest.config.js
 
 # Miscellaneous
 *.class
-*.log
-*.pyc
-*.swp
-.AppleDouble
-.LSOverride
-.apdisk
-.env.*.swp
-*.orig
-.coverage
-.nyc_output/
-dist/
+*.lock
+*.rar
+__pycache__
+*.egg
+.venv
+venv/
