@@ -1,0 +1,96 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/flutter_export_environment.sh
+/ios/Pods/
+/ios/Podfile.lock
+/android/.gradle/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/local.properties
+/android/gradle.properties
+pubspec.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+lerna-debug.log*
+pnpm-debug.log*
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# IDE Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.gradle
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Editor directories and files
+.history/
+.vscode-doxdocgen/
+.ionide/
+
+# JetBrains IDEs
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/projectSettingsUpdater.xml
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.xcworkspace/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.AppleDouble
+.LSOverride
+.apdisk
+.env.*.swp
+*.orig
+.coverage
+.nyc_output/
+dist/
